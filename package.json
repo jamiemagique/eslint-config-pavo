@@ -5,6 +5,10 @@
   "main": "index.js",
   "author": "jamiemagique",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jamiemagique/eslint-config-pavo.git"
+  },
   "devDependencies": {
     "babel-eslint": "^8.2.2",
     "eslint": "^4.19.1",
