@@ -5,7 +5,7 @@
 ## 1. Install
 
 ```
-npm install eslint eslint-config-pavo --save-dev
+npm install eslint-config-pavo --save-dev
 ```
 
 ## 2. Usage
