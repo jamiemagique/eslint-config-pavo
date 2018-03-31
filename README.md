@@ -1,6 +1,6 @@
 # Pavo eslint configuration
 
-[Status](https://david-dm.org/jamiemagique/eslint-config-pavo.svg)
+![Status](https://david-dm.org/jamiemagique/eslint-config-pavo.svg)
 
 ## 1. Install
 
