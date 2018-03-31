@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pavo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Pavo eslint configuration",
   "main": "index.js",
   "author": "jamiemagique",
