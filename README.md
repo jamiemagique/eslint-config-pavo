@@ -1,7 +1,5 @@
 # Pavo eslint configuration
 
-[![David](https://img.shields.io/david/dependencies/jamiemagique/eslint-config-pavo.svg?style=flat-square)](https://david-dm.org/jamiemagique/eslint-config-pavo?type=dependencies)
-
 ## 1. Install
 
 ```
