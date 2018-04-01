@@ -25,5 +25,8 @@
     "eslint-plugin-require-jsdoc": "^1.0.4",
     "prettier": "^1.11.1",
     "prettier-eslint": "^8.8.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
