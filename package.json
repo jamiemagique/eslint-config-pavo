@@ -39,6 +39,10 @@
   "devDependencies": {
     "eslint-find-rules": "^3.2.2",
     "semantic-release": "^15.1.4",
+    "simple-commit-message": "^4.0.3",
     "travis-deploy-once": "^4.4.1"
+  },
+  "release": {
+    "analyzeCommits": "simple-commit-message"
   }
 }
