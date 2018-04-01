@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-pavo",
-  "version": "1.0.3",
+  "version": "0.0.0-development",
   "description": "Pavo eslint configuration",
   "main": "index.js",
   "author": "jamiemagique",
@@ -8,6 +8,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/jamiemagique/eslint-config-pavo.git"
+  },
+  "scripts": {
+    "travis-deploy-once": "travis-deploy-once",
+    "semantic-release": "semantic-release"
   },
   "dependencies": {
     "babel-eslint": "^8.2.2",
@@ -28,5 +32,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "travis-deploy-once": "^4.4.1",
+    "semantic-release": "^15.1.4"
   }
 }
