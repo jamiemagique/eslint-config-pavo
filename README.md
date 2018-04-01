@@ -1,5 +1,7 @@
 # Pavo eslint configuration
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jamiemagique/eslint-config-pavo.svg)](https://greenkeeper.io/)
+
 ![Status](https://david-dm.org/jamiemagique/eslint-config-pavo.svg)
 
 ## 1. Install
