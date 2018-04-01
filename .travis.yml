@@ -1,3 +1,12 @@
 language: node_js
 node_js:
 - stable
+before_deploy: npm version patch -m 'Automated release to %s [skip ci]' --yes --unsafe-perm --force
+deploy:
+  provider: npm
+  email: jame.eastabrook@gmail.com
+  api_key:
+    secure: euLg2ddt5HjU8jVW5YMrHELBxA+6SYRPmIeBmC2GWg+O25f+ph8sE/2v4BZXxJdsgQ1r48shbRDMtA+iFUxmR8cvI4ljR7WedJjSc9+34ZVoaSkETuWVWVCrHmnVs/uyu0xyws/XGoH8mahx5RSl7nGAIHVu8Zr80bBPitR+EYF7gNRO7/MMikWQWBsVL1RQ6v+PTY9QUO6NOJmmVf8TpmZHB6JcFKpIBc9kMCRY/idVNdd2FA8MHrnqBv8sh5ABNZevs6H9VuYPMcNNl/7tZ5Ym5v3Nqr004v2xmdrPNS3qDPrvn9/vVkN6k0RKSS9ajir73oqFLf7VPv964gJg21goGRwfsdJWfv80NDktFxeLKRfhUw5YVPVK2S6K3z2koIe5v0qnVDZCOWVoAd7RjaJEwErIxflev987qfkaGqjvDaQvPTKr0a0vZZPwOb7agJRlKcemhblfGA7KjgGNDTBHqqwFqo6dFI5G2xF8Sfn5iL90sHeA9eDmO9hx3s5LzWi5Ei+M2QWAbFeiI17grgYcYFHRL3UBFyqpCd4zeq2uBEwU3GdrRLJv1IVJ1imw4C5ftv9MFxFrcaKNTfpkTJ4gJGNw98w4Q82igAE0eE/q1XUiTvXluZ82RaugtDtXZ7FI01XtvnwIsjpN2FHfn9zdlwRDg/Cp4+2aql0Kv9U=
+  on:
+    tags: true
+    branch: master
