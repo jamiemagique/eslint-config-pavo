@@ -71,24 +71,6 @@ module.exports = {
         bracketSpacing: true,
       },
     ],
-    'jsx-a11y/label-has-for': [
-      2,
-      {
-        components: ['Label'],
-        required: {
-          every: ['id'],
-        },
-        allowChildren: false,
-      },
-    ],
-    'jsx-a11y/anchor-is-valid': [
-      'error',
-      {
-        components: ['Link'],
-        specialLink: ['to'],
-        aspects: ['noHref', 'invalidHref', 'preferButton'],
-      },
-    ],
     'jsdoc/check-param-names': 2,
     'jsdoc/check-tag-names': 2,
     'jsdoc/check-types': 2,

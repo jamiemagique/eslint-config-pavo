@@ -12,7 +12,8 @@
   "scripts": {
     "test": "npm run lint && npm run find-new-rules",
     "lint": "eslint . ",
-    "find-new-rules": "npm run find-new-rules:main && npm run find-new-rules:react && npm run find-new-rules:jest",
+    "find-new-rules":
+      "npm run find-new-rules:main && npm run find-new-rules:react && npm run find-new-rules:jest",
     "find-new-rules:main": "eslint-find-rules --unused --option",
     "find-new-rules:react": "eslint-find-rules --unused ./test/react.js",
     "find-new-rules:jest": "eslint-find-rules --unused ./test/jest.js",

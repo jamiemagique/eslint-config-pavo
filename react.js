@@ -8,7 +8,7 @@ module.exports = {
     },
   },
   extends: ['airbnb', 'prettier/react'],
-  plugins: ['react'],
+  plugins: ['react', 'jsx-a11y'],
   rules: {
     'react/jsx-indent': [2, 2],
     'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
@@ -22,5 +22,23 @@ module.exports = {
     'react/no-access-state-in-setstate': 2,
     'react/jsx-max-depth': [1, { max: 10 }],
     'react/no-this-in-sfc': 2,
+    'jsx-a11y/label-has-for': [
+      2,
+      {
+        components: ['Label'],
+        required: {
+          every: ['id'],
+        },
+        allowChildren: false,
+      },
+    ],
+    'jsx-a11y/anchor-is-valid': [
+      'error',
+      {
+        components: ['Link'],
+        specialLink: ['to'],
+        aspects: ['noHref', 'invalidHref', 'preferButton'],
+      },
+    ],
   },
 };
