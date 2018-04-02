@@ -14,7 +14,7 @@ npm install eslint-config-pavo --save-dev
 
 Create a `.eslintrc` file.
 
-Add this package as the configuration to extend:
+Add this configuration to extend:
 
 ```
 {
@@ -25,7 +25,7 @@ Add this package as the configuration to extend:
 }
 ```
 
-You can layer multiple configurations provided depending upon the project type:
+You can layer multiple configurations provided depending upon your projects type:
 
 ```
 {
@@ -33,7 +33,7 @@ You can layer multiple configurations provided depending upon the project type:
 }
 ```
 
-Additional config's:
+Additional configs:
 
 * react
 * jest
