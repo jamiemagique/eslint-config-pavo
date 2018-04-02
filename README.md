@@ -19,5 +19,21 @@ Add this package as the configuration to extend:
 ```
 {
   "extends": "eslint-config-pavo"
+  "rules": {
+    // Your projects overrides.
+  }
 }
 ```
+
+You can layer multiple configurations provided depending upon the project type:
+
+```
+{
+  "extends": ["eslint-config-pavo", "eslint-config-pavo/<config-name>"]
+}
+```
+
+Additional config's:
+
+* react
+* jest

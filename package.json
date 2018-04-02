@@ -12,7 +12,10 @@
   "scripts": {
     "test": "npm run lint && npm run find-new-rules",
     "lint": "eslint . ",
-    "find-new-rules": "eslint-find-rules --unused --option",
+    "find-new-rules": "npm run find-new-rules:main && npm run find-new-rules:react && npm run find-new-rules:jest",
+    "find-new-rules:main": "eslint-find-rules --unused --option",
+    "find-new-rules:react": "eslint-find-rules --unused ./test/react.js",
+    "find-new-rules:jest": "eslint-find-rules --unused ./test/jest.js",
     "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
@@ -21,6 +24,7 @@
     "babel-plugin-module-resolver": "^3.1.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
     "eslint-config-prettier": "^2.9.0",
     "eslint-import-resolver-node": "^0.3.2",
     "eslint-plugin-css-modules": "^2.7.5",
