@@ -12,8 +12,7 @@
   "scripts": {
     "test": "npm run lint && npm run find-new-rules",
     "lint": "eslint . ",
-    "find-new-rules":
-      "npm run find-new-rules:main && npm run find-new-rules:react && npm run find-new-rules:jest",
+    "find-new-rules": "npm run find-new-rules:main && npm run find-new-rules:react && npm run find-new-rules:jest",
     "find-new-rules:main": "eslint-find-rules --unused --option",
     "find-new-rules:react": "eslint-find-rules --unused ./test/react.js",
     "find-new-rules:jest": "eslint-find-rules --unused ./test/jest.js",
@@ -26,7 +25,6 @@
     "eslint": "^4.19.1",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-prettier": "^2.9.0",
     "eslint-import-resolver-node": "^0.3.2",
     "eslint-plugin-css-modules": "^2.7.5",
     "eslint-plugin-import": "^2.10.0",
@@ -43,6 +41,7 @@
     "access": "public"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^2.9.0",
     "eslint-find-rules": "^3.2.2",
     "semantic-release": "^15.1.4",
     "simple-commit-message": "^4.0.3",

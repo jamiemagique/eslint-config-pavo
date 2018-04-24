@@ -4,7 +4,13 @@ module.exports = {
     browser: true,
     node: true,
   },
-  extends: ['airbnb-base', 'plugin:css-modules/recommended', 'prettier'],
+  extends: [
+    'airbnb-base',
+    'eslint:recommended',
+    'plugin:css-modules/recommended',
+    'prettier',
+    'prettier/standard',
+  ],
   plugins: ['css-modules', 'prettier', 'jsdoc', 'require-jsdoc'],
   rules: {
     'no-console': [
