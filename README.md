@@ -33,7 +33,7 @@ You can layer multiple configurations provided depending upon your projects type
 }
 ```
 
-Additional configs available:
+Additional configs available are:
 
 * react
 * jest
