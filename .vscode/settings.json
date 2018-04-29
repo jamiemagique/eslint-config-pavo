@@ -1,4 +1,5 @@
 {
+  "workbench.colorTheme": "Default Dark+",
   "eslint.options": {
     "configFile": ".eslintrc",
     "parserOptions": {
@@ -7,11 +8,11 @@
     }
   },
   "eslint.enable": true,
+  "prettier.eslintIntegration": true,
   "editor.renderWhitespace": "all",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSave": true,
-  "prettier.stylelintIntegration": true,
-  "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
+  "prettier.stylelintIntegration": true,
   "prettier.trailingComma": "all"
 }

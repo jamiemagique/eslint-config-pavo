@@ -55,10 +55,12 @@ Sample `.vscode/settings.json` config:
     }
   },
   "eslint.enable": true,
-  "editor.trimAutoWhitespace": true,
-  "prettier.stylelintIntegration": true,
   "prettier.eslintIntegration": true,
+  "editor.renderWhitespace": "all",
+  "editor.trimAutoWhitespace": true,
+  "editor.formatOnSave": true,
   "prettier.singleQuote": true,
+  "prettier.stylelintIntegration": true,
   "prettier.trailingComma": "all"
 }
 ```
