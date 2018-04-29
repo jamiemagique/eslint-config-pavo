@@ -6,8 +6,9 @@ notifications:
   email: false
 node_js:
   - stable
+before_install:
+  - npm i -g npm@6.0.0 # This can be removed once Travis uses at least version 5.7.x
 install:
-  - npm i -g npm@5.7.1 # this should be deleted once 5.7.x is out of "pre-release"
   - npm ci # instead of default `npm install`
 script:
   - npm test
