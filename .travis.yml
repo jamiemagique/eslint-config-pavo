@@ -7,7 +7,8 @@ notifications:
 node_js:
   - stable
 install:
-  - npm ci
+  - npm i -g npm@5.7.1 # this should be deleted once 5.7.x is out of "pre-release"
+  - npm ci # instead of default `npm install`
 script:
   - npm test
 after_success:
