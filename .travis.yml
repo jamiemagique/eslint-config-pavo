@@ -6,6 +6,8 @@ notifications:
   email: false
 node_js:
   - stable
+install:
+  - npm ci
 script:
   - npm test
 after_success:
