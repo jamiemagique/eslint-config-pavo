@@ -16,7 +16,6 @@
     "find-new-rules:main": "eslint-find-rules --unused --option",
     "find-new-rules:react": "eslint-find-rules --unused ./test/react.js",
     "find-new-rules:jest": "eslint-find-rules --unused ./test/jest.js",
-    "travis-deploy-once": "travis-deploy-once",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
@@ -45,7 +44,6 @@
     "eslint-find-rules": "^3.2.2",
     "semantic-release": "^15.1.4",
     "simple-commit-message": "^4.0.3",
-    "travis-deploy-once": "^4.4.1"
   },
   "release": {
     "analyzeCommits": "simple-commit-message"
