@@ -80,6 +80,7 @@ module.exports = {
     'jsdoc/check-param-names': 2,
     'jsdoc/check-tag-names': 2,
     'jsdoc/check-types': 2,
+    'jsdoc/no-undefined-types': 2,
     'jsdoc/newline-after-description': 2,
     'jsdoc/require-description-complete-sentence': 2,
     'jsdoc/require-example': 0,
@@ -90,6 +91,7 @@ module.exports = {
     'jsdoc/require-param-type': 2,
     'jsdoc/require-returns-description': 0,
     'jsdoc/require-returns-type': 2,
+    'jsdoc/valid-types': 2,
     'require-jsdoc/require-jsdoc': [
       'error',
       {
