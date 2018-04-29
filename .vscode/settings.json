@@ -7,10 +7,11 @@
     }
   },
   "eslint.enable": true,
-  "prettier.eslintIntegration": true,
   "editor.renderWhitespace": "all",
   "editor.trimAutoWhitespace": true,
   "editor.formatOnSave": true,
+  "prettier.stylelintIntegration": true,
+  "prettier.eslintIntegration": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "all"
 }
