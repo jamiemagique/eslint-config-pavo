@@ -3,7 +3,7 @@
 [![Greenkeeper badge](https://badges.greenkeeper.io/jamiemagique/eslint-config-pavo.svg)](https://greenkeeper.io/)
 ![Status](https://david-dm.org/jamiemagique/eslint-config-pavo.svg)
 
-Linting and Formatting with Prettier, built on top of Airbnb linting config.
+Linting and Formatting with Prettier :nail_care:, built on top of Airbnb linting config.
 
 ## 1. Install
 
@@ -42,6 +42,11 @@ Additional configs available are:
 ## Prettier integration
 
 ### Visual Studio Code
+
+Extensions:
+
+* [Prettier - Code formatter (esbenp.prettier-vscode)](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+* [ESLint (dbaeumer.vscode-eslint)](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
 Sample `.vscode/settings.json` config:
 
