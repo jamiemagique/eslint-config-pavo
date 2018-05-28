@@ -7,7 +7,7 @@ module.exports = {
       jsx: true,
     },
   },
-  extends: ['airbnb', 'prettier/react'],
+  extends: ['airbnb', 'prettier', 'prettier/standard', 'prettier/react'],
   plugins: ['react', 'jsx-a11y'],
   rules: {
     'react/jsx-indent': [2, 2],
