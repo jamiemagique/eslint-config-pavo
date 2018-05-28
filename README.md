@@ -39,6 +39,24 @@ Additional configs available are:
 * react
 * jest
 
+### Scripts
+
+Running the linter via scripts defined in `package.json`
+
+```
+"scripts": {
+  "lint": "./node_modules/.bin/eslint src",
+  "lint:fix": "npm run lint -- --fix",
+}
+```
+
+Then on the command line:
+
+```
+npm run lint
+npm run lint:fix
+```
+
 ## Prettier integration
 
 ### Visual Studio Code
