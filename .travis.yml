@@ -9,7 +9,7 @@ node_js:
 before_install:
   - npm i -g npm@6.0.0 # This can be removed once Travis uses at least version 5.7.x
 install:
-  - npm ci # instead of default `npm install`
+  - npm ci
 script:
   - npm test
 after_success:

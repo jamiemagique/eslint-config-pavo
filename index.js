@@ -43,32 +43,6 @@ module.exports = {
       },
     ],
     'space-before-blocks': ['error', 'always'],
-    'import/export': 'error',
-    'import/exports-last': 0,
-    'import/group-exports': 0,
-    'import/no-extraneous-dependencies': ['error', { packageDir: '.' }],
-    'import/no-default-export': 0,
-    'import/no-cycle': 'error',
-    'import/no-self-import': 'error',
-    'import/no-useless-path-segments': 'error',
-    'import/extensions': 0,
-    'import/no-unresolved': 0,
-    'prefer-destructuring': [
-      'error',
-      {
-        VariableDeclarator: {
-          array: false,
-          object: true,
-        },
-        AssignmentExpression: {
-          array: false,
-          object: false,
-        },
-      },
-      {
-        enforceForRenamedProperties: false,
-      },
-    ],
     'prettier/prettier': [
       'error',
       {
